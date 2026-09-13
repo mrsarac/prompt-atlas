@@ -1,0 +1,23 @@
+name: Validate cards
+
+on:
+  push:
+  pull_request:
+
+permissions:
+  contents: read
+
+jobs:
+  validate:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          persist-credentials: false
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Test validator with synthetic fixtures
+        run: python -B -m unittest discover -s tests -v
+      - name: Validate cards and checked-in catalog
+        run: python -B scripts/catalog.py check

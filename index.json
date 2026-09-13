@@ -1,0 +1,1605 @@
+[
+  {
+    "id": "T01",
+    "slug": "gorev-sozlesmesi",
+    "title": "Görev ve çıktı sözleşmesi",
+    "section": "temel",
+    "tags": [
+      "yazi",
+      "kod",
+      "ajan",
+      "arastirma"
+    ],
+    "aliases": [
+      "Output contract",
+      "ELI5",
+      "basitçe anlat",
+      "Modelden basitleştirilmiş açıklama isteme",
+      "RTF",
+      "CRISPE",
+      "RISEN",
+      "CARE",
+      "CRAFT",
+      "RACE"
+    ],
+    "mark": "T01",
+    "file": "gorev-sozlesmesi.md",
+    "related_ids": [
+      "few-shot",
+      "co-star",
+      "structured-outputs"
+    ]
+  },
+  {
+    "id": "T02",
+    "slug": "few-shot",
+    "title": "Few-shot",
+    "section": "temel",
+    "tags": [
+      "yazi",
+      "kod",
+      "ajan",
+      "arastirma"
+    ],
+    "aliases": [
+      "Few-shot prompting",
+      "ICL"
+    ],
+    "mark": "T02",
+    "file": "few-shot.md",
+    "related_ids": [
+      "gorev-sozlesmesi",
+      "analogical-prompting",
+      "active-prompting"
+    ]
+  },
+  {
+    "id": "T03",
+    "slug": "rol-persona",
+    "title": "Rol ve persona",
+    "section": "yazi",
+    "tags": [
+      "yazi"
+    ],
+    "aliases": [
+      "Persona pattern",
+      "Role prompting"
+    ],
+    "mark": "T03",
+    "file": "rol-persona.md",
+    "related_ids": [
+      "co-star",
+      "meta-orkestrasyon",
+      "ogretilebilir-ajan"
+    ]
+  },
+  {
+    "id": "T04",
+    "slug": "co-star",
+    "title": "CO-STAR",
+    "section": "yazi",
+    "tags": [
+      "yazi"
+    ],
+    "aliases": [
+      "COSTAR"
+    ],
+    "mark": "T04",
+    "file": "co-star.md",
+    "related_ids": [
+      "gorev-sozlesmesi",
+      "rol-persona",
+      "question-refinement"
+    ]
+  },
+  {
+    "id": "T05",
+    "slug": "chain-of-thought",
+    "title": "Chain-of-Thought",
+    "section": "kod",
+    "tags": [
+      "kod"
+    ],
+    "aliases": [
+      "CoT",
+      "Few-shot CoT"
+    ],
+    "mark": "T05",
+    "file": "chain-of-thought.md",
+    "related_ids": [
+      "zero-shot-cot",
+      "chain-of-draft",
+      "pal"
+    ]
+  },
+  {
+    "id": "T06",
+    "slug": "zero-shot-cot",
+    "title": "Zero-shot CoT",
+    "section": "kod",
+    "tags": [
+      "kod"
+    ],
+    "aliases": [
+      "Zero-shot CoT"
+    ],
+    "mark": "T06",
+    "file": "zero-shot-cot.md",
+    "related_ids": [
+      "chain-of-thought",
+      "plan-and-solve",
+      "chain-of-draft"
+    ]
+  },
+  {
+    "id": "T07",
+    "slug": "least-to-most",
+    "title": "Least-to-Most",
+    "section": "kod",
+    "tags": [
+      "kod"
+    ],
+    "aliases": [
+      "LtM"
+    ],
+    "mark": "T07",
+    "file": "least-to-most.md",
+    "related_ids": [
+      "plan-and-solve",
+      "decomposed-prompting",
+      "recursive-socratic"
+    ]
+  },
+  {
+    "id": "T08",
+    "slug": "step-back",
+    "title": "Step-Back",
+    "section": "arastirma",
+    "tags": [
+      "arastirma"
+    ],
+    "aliases": [
+      "Abstraction-and-reasoning"
+    ],
+    "mark": "T08",
+    "file": "step-back.md",
+    "related_ids": [
+      "least-to-most",
+      "analogical-prompting",
+      "plan-and-solve"
+    ]
+  },
+  {
+    "id": "T09",
+    "slug": "self-consistency",
+    "title": "Self-Consistency",
+    "section": "kod",
+    "tags": [
+      "kod"
+    ],
+    "aliases": [
+      "Sample-and-marginalize"
+    ],
+    "mark": "T09",
+    "file": "self-consistency.md",
+    "related_ids": [
+      "multiagent-debate",
+      "medprompt",
+      "active-prompting"
+    ]
+  },
+  {
+    "id": "T10",
+    "slug": "tree-of-thoughts",
+    "title": "Tree of Thoughts",
+    "section": "kod",
+    "tags": [
+      "kod"
+    ],
+    "aliases": [
+      "ToT"
+    ],
+    "mark": "T10",
+    "file": "tree-of-thoughts.md",
+    "related_ids": [
+      "graph-of-thoughts",
+      "self-consistency",
+      "recursive-socratic"
+    ]
+  },
+  {
+    "id": "T11",
+    "slug": "pal",
+    "title": "PAL",
+    "section": "kod",
+    "tags": [
+      "kod"
+    ],
+    "aliases": [
+      "PAL",
+      "PaL"
+    ],
+    "mark": "T11",
+    "file": "pal.md",
+    "related_ids": [
+      "program-of-thoughts",
+      "self-debug",
+      "chain-of-thought"
+    ]
+  },
+  {
+    "id": "T12",
+    "slug": "rag",
+    "title": "RAG — Kaynağı bul, cevabı ona dayandır",
+    "section": "arastirma",
+    "tags": [
+      "arastirma",
+      "belge"
+    ],
+    "aliases": [
+      "RAG"
+    ],
+    "mark": "T12",
+    "file": "rag.md",
+    "related_ids": [
+      "hyde",
+      "ircot",
+      "atif-sozlesmesi"
+    ]
+  },
+  {
+    "id": "T13",
+    "slug": "atif-sozlesmesi",
+    "title": "Atıf sözleşmesi",
+    "section": "arastirma",
+    "tags": [
+      "arastirma"
+    ],
+    "aliases": [
+      "Evidence-first answering"
+    ],
+    "mark": "T13",
+    "file": "atif-sozlesmesi.md",
+    "related_ids": [
+      "rag",
+      "chain-of-verification",
+      "belirsizlik-sozlesmesi"
+    ]
+  },
+  {
+    "id": "T14",
+    "slug": "hyde",
+    "title": "HyDE",
+    "section": "arastirma",
+    "tags": [
+      "arastirma"
+    ],
+    "aliases": [
+      "HyDE"
+    ],
+    "mark": "T14",
+    "file": "hyde.md",
+    "related_ids": [
+      "rag",
+      "generated-knowledge",
+      "ircot"
+    ]
+  },
+  {
+    "id": "T15",
+    "slug": "ircot",
+    "title": "IRCoT",
+    "section": "arastirma",
+    "tags": [
+      "arastirma"
+    ],
+    "aliases": [
+      "IRCoT"
+    ],
+    "mark": "T15",
+    "file": "ircot.md",
+    "related_ids": [
+      "self-ask",
+      "rag",
+      "react"
+    ]
+  },
+  {
+    "id": "T16",
+    "slug": "structured-outputs",
+    "title": "Structured Outputs",
+    "section": "kod",
+    "tags": [
+      "kod"
+    ],
+    "aliases": [
+      "JSON Schema enforcement"
+    ],
+    "mark": "T16",
+    "file": "structured-outputs.md",
+    "related_ids": [
+      "gorev-sozlesmesi",
+      "ayraclar",
+      "arac-sozlesmesi"
+    ]
+  },
+  {
+    "id": "T17",
+    "slug": "ayraclar",
+    "title": "Ayraçlar ve etiketli bağlam",
+    "section": "temel",
+    "tags": [
+      "yazi",
+      "kod",
+      "ajan",
+      "arastirma"
+    ],
+    "aliases": [
+      "XML sections",
+      "Markdown sections"
+    ],
+    "mark": "T17",
+    "file": "ayraclar.md",
+    "related_ids": [
+      "guvenilmeyen-girdi",
+      "gorev-sozlesmesi",
+      "structured-outputs"
+    ]
+  },
+  {
+    "id": "T18",
+    "slug": "self-refine",
+    "title": "Self-Refine",
+    "section": "yazi",
+    "tags": [
+      "yazi"
+    ],
+    "aliases": [
+      "Iterative refinement with self-feedback"
+    ],
+    "mark": "T18",
+    "file": "self-refine.md",
+    "related_ids": [
+      "critic",
+      "reflexion",
+      "self-debug"
+    ]
+  },
+  {
+    "id": "T19",
+    "slug": "chain-of-verification",
+    "title": "Chain-of-Verification",
+    "section": "arastirma",
+    "tags": [
+      "arastirma"
+    ],
+    "aliases": [
+      "CoVe",
+      "COVE"
+    ],
+    "mark": "T19",
+    "file": "chain-of-verification.md",
+    "related_ids": [
+      "critic",
+      "reversing-cot",
+      "atif-sozlesmesi"
+    ]
+  },
+  {
+    "id": "T20",
+    "slug": "reflexion",
+    "title": "Reflexion",
+    "section": "ajan",
+    "tags": [
+      "ajan"
+    ],
+    "aliases": [
+      "Verbal reinforcement learning"
+    ],
+    "mark": "T20",
+    "file": "reflexion.md",
+    "related_ids": [
+      "self-refine",
+      "harici-notlar",
+      "critic"
+    ]
+  },
+  {
+    "id": "T21",
+    "slug": "llm-judge",
+    "title": "LLM-as-a-judge",
+    "section": "yazi",
+    "tags": [
+      "yazi"
+    ],
+    "aliases": [
+      "Model-based judging"
+    ],
+    "mark": "T21",
+    "file": "llm-judge.md",
+    "related_ids": [
+      "self-refine",
+      "chain-of-verification",
+      "tutor-gozetmeni"
+    ]
+  },
+  {
+    "id": "T22",
+    "slug": "meta-prompt-uretimi",
+    "title": "Prompt üreten meta prompt",
+    "section": "yazi",
+    "tags": [
+      "yazi"
+    ],
+    "aliases": [
+      "Meta prompting: prompt-generation sense"
+    ],
+    "mark": "T22",
+    "file": "meta-prompt-uretimi.md",
+    "related_ids": [
+      "master-prompt",
+      "meta-orkestrasyon",
+      "meta-yapisal-sema"
+    ]
+  },
+  {
+    "id": "T23",
+    "slug": "meta-orkestrasyon",
+    "title": "Meta-Prompting: uzman çağrıları",
+    "section": "ajan",
+    "tags": [
+      "ajan"
+    ],
+    "aliases": [
+      "Suzgun–Kalai Meta-Prompting"
+    ],
+    "mark": "T23",
+    "file": "meta-orkestrasyon.md",
+    "related_ids": [
+      "meta-prompt-uretimi",
+      "multiagent-debate",
+      "decomposed-prompting"
+    ]
+  },
+  {
+    "id": "T24",
+    "slug": "meta-yapisal-sema",
+    "title": "Meta Prompting: yapısal şema",
+    "section": "kod",
+    "tags": [
+      "kod"
+    ],
+    "aliases": [
+      "Zhang–Yuan–Yao MP",
+      "Recursive Meta Prompting"
+    ],
+    "mark": "T24",
+    "file": "meta-yapisal-sema.md",
+    "related_ids": [
+      "meta-prompt-uretimi",
+      "rune",
+      "meta-orkestrasyon"
+    ]
+  },
+  {
+    "id": "T25",
+    "slug": "ape",
+    "title": "Automatic Prompt Engineer",
+    "section": "kod",
+    "tags": [
+      "kod"
+    ],
+    "aliases": [
+      "APE"
+    ],
+    "mark": "T25",
+    "file": "ape.md",
+    "related_ids": [
+      "opro",
+      "gepa",
+      "active-prompting"
+    ]
+  },
+  {
+    "id": "T26",
+    "slug": "opro",
+    "title": "OPRO",
+    "section": "kod",
+    "tags": [
+      "kod"
+    ],
+    "aliases": [
+      "OPRO"
+    ],
+    "mark": "T26",
+    "file": "opro.md",
+    "related_ids": [
+      "ape",
+      "gepa",
+      "dspy"
+    ]
+  },
+  {
+    "id": "T27",
+    "slug": "gepa",
+    "title": "GEPA",
+    "section": "kod",
+    "tags": [
+      "kod"
+    ],
+    "aliases": [
+      "GEPA"
+    ],
+    "mark": "T27",
+    "file": "gepa.md",
+    "related_ids": [
+      "ape",
+      "opro",
+      "dspy"
+    ]
+  },
+  {
+    "id": "T28",
+    "slug": "dspy",
+    "title": "DSPy",
+    "section": "kod",
+    "tags": [
+      "kod"
+    ],
+    "aliases": [
+      "Declarative Self-improving Python"
+    ],
+    "mark": "T28",
+    "file": "dspy.md",
+    "related_ids": [
+      "gepa",
+      "ape",
+      "prompt-chaining"
+    ]
+  },
+  {
+    "id": "T29",
+    "slug": "inverse-prompting",
+    "title": "Inverse Prompting",
+    "section": "yazi",
+    "tags": [
+      "yazi"
+    ],
+    "aliases": [
+      "Inverse-likelihood controlled generation"
+    ],
+    "mark": "T29",
+    "file": "inverse-prompting.md",
+    "related_ids": [
+      "flipped-interaction",
+      "meta-prompt-uretimi",
+      "ape"
+    ]
+  },
+  {
+    "id": "T30",
+    "slug": "react",
+    "title": "ReAct",
+    "section": "ajan",
+    "tags": [
+      "ajan"
+    ],
+    "aliases": [
+      "Reasoning and Acting"
+    ],
+    "mark": "T30",
+    "file": "react.md",
+    "related_ids": [
+      "prompt-chaining",
+      "arac-sozlesmesi",
+      "ircot"
+    ]
+  },
+  {
+    "id": "T31",
+    "slug": "prompt-chaining",
+    "title": "Prompt chaining",
+    "section": "ajan",
+    "tags": [
+      "ajan"
+    ],
+    "aliases": [
+      "Prompt chaining"
+    ],
+    "mark": "T31",
+    "file": "prompt-chaining.md",
+    "related_ids": [
+      "decomposed-prompting",
+      "react",
+      "skeleton-of-thought"
+    ]
+  },
+  {
+    "id": "T32",
+    "slug": "arac-sozlesmesi",
+    "title": "Araç ve sonuç sözleşmesi",
+    "section": "ajan",
+    "tags": [
+      "ajan"
+    ],
+    "aliases": [
+      "Agent-computer interface prompting"
+    ],
+    "mark": "T32",
+    "file": "arac-sozlesmesi.md",
+    "related_ids": [
+      "sinirli-yurutme",
+      "structured-outputs",
+      "react"
+    ]
+  },
+  {
+    "id": "T33",
+    "slug": "sinirli-yurutme",
+    "title": "Sınırlı yürütme ve yetki",
+    "section": "ajan",
+    "tags": [
+      "ajan"
+    ],
+    "aliases": [
+      "Stop conditions",
+      "Retry budgets"
+    ],
+    "mark": "T33",
+    "file": "sinirli-yurutme.md",
+    "related_ids": [
+      "guvenilmeyen-girdi",
+      "arac-sozlesmesi",
+      "master-prompt"
+    ]
+  },
+  {
+    "id": "T34",
+    "slug": "master-prompt",
+    "title": "Modüler master prompt",
+    "section": "ajan",
+    "tags": [
+      "ajan"
+    ],
+    "aliases": [
+      "Role master prompt",
+      "Reusable context profile"
+    ],
+    "mark": "T34",
+    "file": "master-prompt.md",
+    "related_ids": [
+      "meta-prompt-uretimi",
+      "rune",
+      "sinirli-yurutme"
+    ]
+  },
+  {
+    "id": "T35",
+    "slug": "context-compaction",
+    "title": "Context compaction",
+    "section": "ajan",
+    "tags": [
+      "ajan"
+    ],
+    "aliases": [
+      "Conversation summarization for continuation"
+    ],
+    "mark": "T35",
+    "file": "context-compaction.md",
+    "related_ids": [
+      "harici-notlar",
+      "system-2-attention",
+      "reflexion"
+    ]
+  },
+  {
+    "id": "T36",
+    "slug": "harici-notlar",
+    "title": "Yapılandırılmış harici notlar",
+    "section": "ajan",
+    "tags": [
+      "ajan"
+    ],
+    "aliases": [
+      "Agentic memory",
+      "Structured note-taking"
+    ],
+    "mark": "T36",
+    "file": "harici-notlar.md",
+    "related_ids": [
+      "context-compaction",
+      "reflexion",
+      "sinirli-yurutme"
+    ]
+  },
+  {
+    "id": "T37",
+    "slug": "flipped-interaction",
+    "title": "Flipped Interaction",
+    "section": "arastirma",
+    "tags": [
+      "arastirma"
+    ],
+    "aliases": [
+      "Model-led clarification",
+      "clarification",
+      "InterOPT",
+      "OR-Clarify benchmark komşusu",
+      "Formülasyon öncesi netleştirme"
+    ],
+    "mark": "T37",
+    "file": "flipped-interaction.md",
+    "related_ids": [
+      "question-refinement",
+      "cognitive-verifier",
+      "tercihleri-aciga-cikarma"
+    ]
+  },
+  {
+    "id": "T38",
+    "slug": "question-refinement",
+    "title": "Question Refinement",
+    "section": "arastirma",
+    "tags": [
+      "arastirma"
+    ],
+    "aliases": [
+      "Question refinement pattern"
+    ],
+    "mark": "T38",
+    "file": "question-refinement.md",
+    "related_ids": [
+      "flipped-interaction",
+      "problem-cerceveleme",
+      "cognitive-verifier"
+    ]
+  },
+  {
+    "id": "T39",
+    "slug": "belirsizlik-sozlesmesi",
+    "title": "Belirsizlik ve yanıt vermeme",
+    "section": "arastirma",
+    "tags": [
+      "arastirma"
+    ],
+    "aliases": [
+      "Fallback response",
+      "Unknown handling"
+    ],
+    "mark": "T39",
+    "file": "belirsizlik-sozlesmesi.md",
+    "related_ids": [
+      "atif-sozlesmesi",
+      "system-2-attention",
+      "once-insan-yargisi"
+    ]
+  },
+  {
+    "id": "T40",
+    "slug": "guvenilmeyen-girdi",
+    "title": "Güvenilmeyen girdiyi ayırma",
+    "section": "ajan",
+    "tags": [
+      "ajan"
+    ],
+    "aliases": [
+      "Instruction-data trust separation"
+    ],
+    "mark": "T40",
+    "file": "guvenilmeyen-girdi.md",
+    "related_ids": [
+      "ayraclar",
+      "sinirli-yurutme",
+      "tutor-gozetmeni"
+    ]
+  },
+  {
+    "id": "R01",
+    "slug": "rune",
+    "title": "RUNE",
+    "section": "ajan",
+    "tags": [
+      "ajan"
+    ],
+    "aliases": [],
+    "mark": "R01",
+    "file": "rune.md",
+    "related_ids": [
+      "master-prompt",
+      "meta-prompt-uretimi",
+      "meta-yapisal-sema"
+    ]
+  },
+  {
+    "id": "E01",
+    "slug": "chain-of-draft",
+    "title": "Chain of Draft",
+    "section": "kod",
+    "tags": [
+      "kod",
+      "ogrenme"
+    ],
+    "aliases": [
+      "CoD"
+    ],
+    "mark": "E01",
+    "file": "chain-of-draft.md",
+    "related_ids": [
+      "chain-of-thought",
+      "zero-shot-cot",
+      "plan-and-solve"
+    ]
+  },
+  {
+    "id": "E02",
+    "slug": "graph-of-thoughts",
+    "title": "Graph of Thoughts",
+    "section": "kod",
+    "tags": [
+      "kod",
+      "ajan"
+    ],
+    "aliases": [],
+    "mark": "E02",
+    "file": "graph-of-thoughts.md",
+    "related_ids": [
+      "tree-of-thoughts",
+      "recursive-socratic",
+      "decomposed-prompting"
+    ]
+  },
+  {
+    "id": "E03",
+    "slug": "generated-knowledge",
+    "title": "Generated Knowledge",
+    "section": "arastirma",
+    "tags": [
+      "arastirma"
+    ],
+    "aliases": [],
+    "mark": "E03",
+    "file": "generated-knowledge.md",
+    "related_ids": [
+      "rag",
+      "hyde",
+      "analogical-prompting"
+    ]
+  },
+  {
+    "id": "E04",
+    "slug": "plan-and-solve",
+    "title": "Plan-and-Solve",
+    "section": "kod",
+    "tags": [
+      "kod",
+      "ogrenme"
+    ],
+    "aliases": [],
+    "mark": "E04",
+    "file": "plan-and-solve.md",
+    "related_ids": [
+      "least-to-most",
+      "chain-of-thought",
+      "recursive-socratic"
+    ]
+  },
+  {
+    "id": "E06",
+    "slug": "self-ask",
+    "title": "Self-Ask",
+    "section": "arastirma",
+    "tags": [
+      "arastirma"
+    ],
+    "aliases": [],
+    "mark": "E06",
+    "file": "self-ask.md",
+    "related_ids": [
+      "ircot",
+      "flipped-interaction",
+      "decomposed-prompting"
+    ]
+  },
+  {
+    "id": "E07",
+    "slug": "emotion-prompting",
+    "title": "EmotionPrompt",
+    "section": "yazi",
+    "tags": [
+      "yazi"
+    ],
+    "aliases": [],
+    "mark": "E07",
+    "file": "emotion-prompting.md",
+    "related_ids": [
+      "gorev-sozlesmesi",
+      "llm-judge",
+      "self-refine"
+    ]
+  },
+  {
+    "id": "E08",
+    "slug": "skeleton-of-thought",
+    "title": "Skeleton-of-Thought",
+    "section": "yazi",
+    "tags": [
+      "yazi",
+      "ajan"
+    ],
+    "aliases": [],
+    "mark": "E08",
+    "file": "skeleton-of-thought.md",
+    "related_ids": [
+      "prompt-chaining",
+      "graph-of-thoughts",
+      "plan-and-solve"
+    ]
+  },
+  {
+    "id": "E09",
+    "slug": "system-2-attention",
+    "title": "System 2 Attention",
+    "section": "arastirma",
+    "tags": [
+      "arastirma"
+    ],
+    "aliases": [],
+    "mark": "E09",
+    "file": "system-2-attention.md",
+    "related_ids": [
+      "thread-of-thought",
+      "context-compaction",
+      "guvenilmeyen-girdi"
+    ]
+  },
+  {
+    "id": "E10",
+    "slug": "chain-of-density",
+    "title": "Chain-of-Density",
+    "section": "yazi",
+    "tags": [
+      "yazi"
+    ],
+    "aliases": [
+      "CoD"
+    ],
+    "mark": "E10",
+    "file": "chain-of-density.md",
+    "related_ids": [
+      "self-refine",
+      "atif-sozlesmesi",
+      "skeleton-of-thought"
+    ]
+  },
+  {
+    "id": "E11",
+    "slug": "directional-stimulus",
+    "title": "Directional Stimulus Prompting",
+    "section": "yazi",
+    "tags": [
+      "yazi",
+      "kod"
+    ],
+    "aliases": [],
+    "mark": "E11",
+    "file": "directional-stimulus.md",
+    "related_ids": [
+      "ape",
+      "dspy",
+      "few-shot"
+    ]
+  },
+  {
+    "id": "E12",
+    "slug": "medprompt",
+    "title": "Medprompt",
+    "section": "arastirma",
+    "tags": [
+      "arastirma",
+      "kod"
+    ],
+    "aliases": [],
+    "mark": "E12",
+    "file": "medprompt.md",
+    "related_ids": [
+      "self-consistency",
+      "few-shot",
+      "active-prompting"
+    ]
+  },
+  {
+    "id": "E13",
+    "slug": "critic",
+    "title": "CRITIC",
+    "section": "arastirma",
+    "tags": [
+      "arastirma",
+      "kod",
+      "ajan"
+    ],
+    "aliases": [],
+    "mark": "E13",
+    "file": "critic.md",
+    "related_ids": [
+      "self-refine",
+      "chain-of-verification",
+      "self-debug"
+    ]
+  },
+  {
+    "id": "E14",
+    "slug": "thread-of-thought",
+    "title": "Thread of Thought",
+    "section": "arastirma",
+    "tags": [
+      "arastirma"
+    ],
+    "aliases": [],
+    "mark": "E14",
+    "file": "thread-of-thought.md",
+    "related_ids": [
+      "system-2-attention",
+      "context-compaction",
+      "self-ask"
+    ]
+  },
+  {
+    "id": "E15",
+    "slug": "program-of-thoughts",
+    "title": "Program of Thoughts",
+    "section": "kod",
+    "tags": [
+      "kod"
+    ],
+    "aliases": [],
+    "mark": "E15",
+    "file": "program-of-thoughts.md",
+    "related_ids": [
+      "pal",
+      "self-debug",
+      "decomposed-prompting"
+    ]
+  },
+  {
+    "id": "C01",
+    "slug": "reversing-cot",
+    "title": "Reversing Chain-of-Thought",
+    "section": "kod",
+    "tags": [
+      "kod",
+      "arastirma"
+    ],
+    "aliases": [
+      "RCoT",
+      "Reversing Chain-of-Thought"
+    ],
+    "mark": "C01",
+    "file": "reversing-cot.md",
+    "related_ids": [
+      "chain-of-verification",
+      "critic",
+      "chain-of-thought"
+    ]
+  },
+  {
+    "id": "C02",
+    "slug": "active-prompting",
+    "title": "Active Prompting",
+    "section": "kod",
+    "tags": [
+      "kod"
+    ],
+    "aliases": [],
+    "mark": "C02",
+    "file": "active-prompting.md",
+    "related_ids": [
+      "self-consistency",
+      "few-shot",
+      "ape"
+    ]
+  },
+  {
+    "id": "C03",
+    "slug": "decomposed-prompting",
+    "title": "Decomposed Prompting",
+    "section": "kod",
+    "tags": [
+      "kod",
+      "ajan"
+    ],
+    "aliases": [
+      "DECOMP"
+    ],
+    "mark": "C03",
+    "file": "decomposed-prompting.md",
+    "related_ids": [
+      "least-to-most",
+      "prompt-chaining",
+      "recursive-socratic"
+    ]
+  },
+  {
+    "id": "M01",
+    "slug": "rubber-duck",
+    "title": "Rubber Duck",
+    "section": "yazi",
+    "tags": [
+      "yazi",
+      "kod",
+      "ajan",
+      "ogrenme"
+    ],
+    "aliases": [
+      "Rubber Duck Debugging",
+      "lastik ördek"
+    ],
+    "mark": "M01",
+    "file": "rubber-duck.md",
+    "related_ids": [
+      "kendine-aciklama",
+      "self-debug",
+      "teach-back"
+    ]
+  },
+  {
+    "id": "M02",
+    "slug": "kendine-aciklama",
+    "title": "Kendine açıklama",
+    "section": "ogrenme",
+    "tags": [
+      "ogrenme",
+      "kod"
+    ],
+    "aliases": [
+      "kendine açıklama",
+      "açıklayarak düşünme",
+      "Feynman tekniği",
+      "Feynman Technique adıyla açıklama–boşluk–yeniden anlatım"
+    ],
+    "mark": "M02",
+    "file": "kendine-aciklama.md",
+    "related_ids": [
+      "rubber-duck",
+      "teach-back",
+      "sokratik-ogretim"
+    ]
+  },
+  {
+    "id": "M03",
+    "slug": "teach-back",
+    "title": "Teach-back",
+    "section": "ogrenme",
+    "tags": [
+      "ogrenme",
+      "ajan"
+    ],
+    "aliases": [
+      "geri anlatarak anlama kontrolü",
+      "show-me komşusu"
+    ],
+    "mark": "M03",
+    "file": "teach-back.md",
+    "related_ids": [
+      "kendine-aciklama",
+      "ogretilebilir-ajan",
+      "sokratik-ogretim"
+    ]
+  },
+  {
+    "id": "M06",
+    "slug": "ogretilebilir-ajan",
+    "title": "Öğretilebilir ajan",
+    "section": "ogrenme",
+    "tags": [
+      "ogrenme",
+      "kod",
+      "ajan"
+    ],
+    "aliases": [
+      "Learning by Teaching",
+      "TeachYou",
+      "AlgoBo"
+    ],
+    "mark": "M06",
+    "file": "ogretilebilir-ajan.md",
+    "related_ids": [
+      "teach-back",
+      "sokratik-ogretim",
+      "tutor-gozetmeni"
+    ]
+  },
+  {
+    "id": "M07",
+    "slug": "sokratik-ogretim",
+    "title": "Sokratik öğretici diyalog",
+    "section": "ogrenme",
+    "tags": [
+      "ogrenme",
+      "kod"
+    ],
+    "aliases": [
+      "Socratic tutoring"
+    ],
+    "mark": "M07",
+    "file": "sokratik-ogretim.md",
+    "related_ids": [
+      "recursive-socratic",
+      "tutor-gozetmeni",
+      "kendine-aciklama"
+    ]
+  },
+  {
+    "id": "M08",
+    "slug": "karsilikli-sorgulama",
+    "title": "Karşılıklı sav sorgulama",
+    "section": "arastirma",
+    "tags": [
+      "arastirma",
+      "yazi",
+      "ogrenme"
+    ],
+    "aliases": [
+      "Sokratik diyalog",
+      "epistemik ortak sorgu"
+    ],
+    "mark": "M08",
+    "file": "karsilikli-sorgulama.md",
+    "related_ids": [
+      "recursive-socratic",
+      "flipped-interaction",
+      "arguman-haritasi"
+    ]
+  },
+  {
+    "id": "M09",
+    "slug": "recursive-socratic",
+    "title": "Recursive Socratic Questioning",
+    "section": "kod",
+    "tags": [
+      "kod",
+      "ajan"
+    ],
+    "aliases": [
+      "Qi et al. Socratic Questioning"
+    ],
+    "mark": "M09",
+    "file": "recursive-socratic.md",
+    "related_ids": [
+      "sokratik-ogretim",
+      "graph-of-thoughts",
+      "decomposed-prompting"
+    ]
+  },
+  {
+    "id": "M10",
+    "slug": "hatirlama-alistirmasi",
+    "title": "Hatırlama alıştırması",
+    "section": "ogrenme",
+    "tags": [
+      "ogrenme"
+    ],
+    "aliases": [
+      "hatırlayarak alıştırma",
+      "active recall komşusu"
+    ],
+    "mark": "M10",
+    "file": "hatirlama-alistirmasi.md",
+    "related_ids": [
+      "aralikli-tekrar",
+      "kendine-aciklama",
+      "once-insan-yargisi"
+    ]
+  },
+  {
+    "id": "M11",
+    "slug": "aralikli-tekrar",
+    "title": "Aralıklı tekrar",
+    "section": "ogrenme",
+    "tags": [
+      "ogrenme"
+    ],
+    "aliases": [
+      "spaced repetition",
+      "SRS"
+    ],
+    "mark": "M11",
+    "file": "aralikli-tekrar.md",
+    "related_ids": [
+      "hatirlama-alistirmasi",
+      "harici-notlar",
+      "kendine-aciklama"
+    ]
+  },
+  {
+    "id": "M12",
+    "slug": "problem-cerceveleme",
+    "title": "Problem çerçeveleme",
+    "section": "arastirma",
+    "tags": [
+      "arastirma",
+      "yazi",
+      "kod",
+      "ogrenme"
+    ],
+    "aliases": [
+      "problem framing",
+      "problem finding"
+    ],
+    "mark": "M12",
+    "file": "problem-cerceveleme.md",
+    "related_ids": [
+      "question-refinement",
+      "tercihleri-aciga-cikarma",
+      "alternatif-yaklasimlar"
+    ]
+  },
+  {
+    "id": "M14",
+    "slug": "tercihleri-aciga-cikarma",
+    "title": "Tercihleri açığa çıkarma",
+    "section": "ogrenme",
+    "tags": [
+      "ogrenme",
+      "arastirma"
+    ],
+    "aliases": [
+      "preference elicitation"
+    ],
+    "mark": "M14",
+    "file": "tercihleri-aciga-cikarma.md",
+    "related_ids": [
+      "flipped-interaction",
+      "problem-cerceveleme",
+      "grup-kolaylastirma"
+    ]
+  },
+  {
+    "id": "M15",
+    "slug": "self-debug",
+    "title": "Self-Debug",
+    "section": "kod",
+    "tags": [
+      "kod"
+    ],
+    "aliases": [
+      "Teaching LLMs to Self-Debug",
+      "model rubber duck"
+    ],
+    "mark": "M15",
+    "file": "self-debug.md",
+    "related_ids": [
+      "rubber-duck",
+      "critic",
+      "self-refine"
+    ]
+  },
+  {
+    "id": "M17",
+    "slug": "metacognitive-prompting",
+    "title": "Metacognitive Prompting",
+    "section": "arastirma",
+    "tags": [
+      "arastirma",
+      "ogrenme"
+    ],
+    "aliases": [
+      "MP — Wang ve Zhao"
+    ],
+    "mark": "M17",
+    "file": "metacognitive-prompting.md",
+    "related_ids": [
+      "self-refine",
+      "once-insan-yargisi",
+      "chain-of-verification"
+    ]
+  },
+  {
+    "id": "M18",
+    "slug": "cognitive-verifier",
+    "title": "Cognitive Verifier",
+    "section": "arastirma",
+    "tags": [
+      "arastirma",
+      "ajan"
+    ],
+    "aliases": [
+      "White alt soru birleştirme deseni"
+    ],
+    "mark": "M18",
+    "file": "cognitive-verifier.md",
+    "related_ids": [
+      "flipped-interaction",
+      "chain-of-verification",
+      "problem-cerceveleme"
+    ]
+  },
+  {
+    "id": "M19",
+    "slug": "alternatif-yaklasimlar",
+    "title": "Alternatif yaklaşımlar",
+    "section": "yazi",
+    "tags": [
+      "yazi",
+      "kod",
+      "ogrenme"
+    ],
+    "aliases": [
+      "alternatif yaklaşımlar"
+    ],
+    "mark": "M19",
+    "file": "alternatif-yaklasimlar.md",
+    "related_ids": [
+      "problem-cerceveleme",
+      "analogical-prompting",
+      "ortak-fikir-uretimi"
+    ]
+  },
+  {
+    "id": "M20",
+    "slug": "analogical-prompting",
+    "title": "Analogical Prompting",
+    "section": "kod",
+    "tags": [
+      "kod",
+      "ogrenme"
+    ],
+    "aliases": [
+      "LLMs as Analogical Reasoners",
+      "self-generated exemplars"
+    ],
+    "mark": "M20",
+    "file": "analogical-prompting.md",
+    "related_ids": [
+      "few-shot",
+      "step-back",
+      "ortak-fikir-uretimi"
+    ]
+  },
+  {
+    "id": "M21",
+    "slug": "ortak-fikir-uretimi",
+    "title": "Ortak fikir üretimi",
+    "section": "yazi",
+    "tags": [
+      "yazi",
+      "ogrenme"
+    ],
+    "aliases": [
+      "divergent/convergent ideation",
+      "brainstorming iş akışı"
+    ],
+    "mark": "M21",
+    "file": "ortak-fikir-uretimi.md",
+    "related_ids": [
+      "alternatif-yaklasimlar",
+      "analogical-prompting",
+      "grup-kolaylastirma"
+    ]
+  },
+  {
+    "id": "M22",
+    "slug": "premortem",
+    "title": "Premortem",
+    "section": "ajan",
+    "tags": [
+      "ajan",
+      "ogrenme"
+    ],
+    "aliases": [
+      "ön başarısızlık analizi",
+      "prospective hindsight komşusu"
+    ],
+    "mark": "M22",
+    "file": "premortem.md",
+    "related_ids": [
+      "arguman-haritasi",
+      "alternatif-yaklasimlar",
+      "sinirli-yurutme"
+    ]
+  },
+  {
+    "id": "M23",
+    "slug": "arguman-haritasi",
+    "title": "Argüman haritası",
+    "section": "arastirma",
+    "tags": [
+      "arastirma",
+      "yazi"
+    ],
+    "aliases": [
+      "argument mapping",
+      "claim–evidence–objection tablosu"
+    ],
+    "mark": "M23",
+    "file": "arguman-haritasi.md",
+    "related_ids": [
+      "karsilikli-sorgulama",
+      "premortem",
+      "once-insan-yargisi"
+    ]
+  },
+  {
+    "id": "M24",
+    "slug": "once-insan-yargisi",
+    "title": "Önce insanın yargısı",
+    "section": "ogrenme",
+    "tags": [
+      "ogrenme",
+      "arastirma"
+    ],
+    "aliases": [
+      "human-first judgment",
+      "cognitive forcing Update komşusu"
+    ],
+    "mark": "M24",
+    "file": "once-insan-yargisi.md",
+    "related_ids": [
+      "metacognitive-prompting",
+      "arguman-haritasi",
+      "hatirlama-alistirmasi"
+    ]
+  },
+  {
+    "id": "M25",
+    "slug": "grup-kolaylastirma",
+    "title": "Grup tartışmasını kolaylaştırma",
+    "section": "ajan",
+    "tags": [
+      "ajan",
+      "ogrenme"
+    ],
+    "aliases": [
+      "group facilitation",
+      "GRAIL çalışma bağlamı"
+    ],
+    "mark": "M25",
+    "file": "grup-kolaylastirma.md",
+    "related_ids": [
+      "tercihleri-aciga-cikarma",
+      "multiagent-debate",
+      "arguman-haritasi"
+    ]
+  },
+  {
+    "id": "M26",
+    "slug": "multiagent-debate",
+    "title": "Multiagent Debate",
+    "section": "ajan",
+    "tags": [
+      "ajan",
+      "arastirma"
+    ],
+    "aliases": [
+      "MAD — Du et al."
+    ],
+    "mark": "M26",
+    "file": "multiagent-debate.md",
+    "related_ids": [
+      "self-consistency",
+      "meta-orkestrasyon",
+      "grup-kolaylastirma"
+    ]
+  },
+  {
+    "id": "M27",
+    "slug": "tutor-gozetmeni",
+    "title": "Tutor gözetmeni",
+    "section": "ajan",
+    "tags": [
+      "ajan",
+      "ogrenme"
+    ],
+    "aliases": [
+      "Pisan answer-withholding architecture",
+      "SPRA",
+      "Scaffold-Preserving Representation Alignment"
+    ],
+    "mark": "M27",
+    "file": "tutor-gozetmeni.md",
+    "related_ids": [
+      "sokratik-ogretim",
+      "ogretilebilir-ajan",
+      "guvenilmeyen-girdi"
+    ]
+  }
+]
