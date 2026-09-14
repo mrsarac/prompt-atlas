@@ -4,7 +4,7 @@ A Turkish collection of individually linkable prompting and learning cards, with
 
 Card content is available under **CC BY 4.0**, including commercial reuse with attribution, a license link and an indication of changes. The small validation tooling is **MIT**. See [license scope and attribution](ATTRIBUTION.md), the complete [content license](LICENSE) and [tooling license](LICENSE-CODE). Credit does not imply endorsement. Images and the private website's code are excluded.
 
-Intended public repository: **[mrsarac/prompt-atlas](https://github.com/mrsarac/prompt-atlas)**. Publication and the website's adoption of a release are separate steps; this document does not certify that either has already happened.
+Public repository: **[mrsarac/prompt-atlas](https://github.com/mrsarac/prompt-atlas)**. The collection is published, and its website reading surfaces were verified live on **2026-09-14**. The website pins the card content from commit `82b2a48fbed05caffc6d8a204ab243de622ef0a6`; later repository changes are not automatically deployed to the website.
 
 ## Türkçe kullanım
 
@@ -14,7 +14,7 @@ Her kartta yöntemin açıklaması, ne zaman işe yaradığı, üç durum ve pro
 
 Kartları doğrudan Markdown olarak okuyabilir veya `catalog.json` ile kendi arama arayüzünüze aktarabilirsiniz. Başlık, etiket ve alternatif adlar `index.json` içindedir; katalog bunlara **tam kart metnini** ekler. Katalogda görsel bulunmaz.
 
-Sitedeki hedef okuma adresleri [Prompt Atlası](https://mustafasarac.com/prompt-atlasi/) ve [kısa rehber](https://mustafasarac.com/posts/prompting-atlasi-master-meta-prompt-ve-ajan-teknikleri/). Bunların canlı erişilebilirliği bu paketin varlığından çıkarılmamalıdır; burada okuma hedefi olarak belirtilirler.
+Canlı okuma adresleri [Prompt Atlası](https://mustafasarac.com/prompt-atlasi/) ve [kısa rehber](https://mustafasarac.com/posts/prompting-atlasi-master-meta-prompt-ve-ajan-teknikleri/); ikisi de 2026-09-14 tarihinde gerçek tarayıcıyla doğrulandı. Bu README güncellemesi kartları, kataloğu veya sitenin sabitlediği içerik sürümünü değiştirmez.
 
 ## Dosyalar ve veri biçimi
 
