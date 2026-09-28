@@ -27,6 +27,10 @@ Python 3.10 veya üstü yeterlidir; bağımlılık kurulumu gerekmez. Komutlar k
 - Kaynak bölümünde özgün kaynağın başlığı, yazarı, bilinen tarihi, tam kamuya açık URL'si ve hangi dar iddiayı desteklediği bulunsun. Tarih veya kanıt bilinmiyorsa söyleyin. Atıf tek başına doğruluk kanıtı değildir. Bu derleme bütün yöntemleri kapsadığını iddia etmez.
 - Kaynağı olmayan başarı iddiası, gizli bilgi, özel kayıt, görsel veya üçüncü taraf malzemeyi kendi lisansımızla yeniden dağıtma iddiası eklemeyin.
 
+### English edition
+
+`en/` translates the same cards. When a Turkish card changes, update its English counterpart in the same contribution. Keep `id`, `slug`, `file`, `section`, `tags`, `mark` and `related_ids` identical to the Turkish record; translate only `title`, `aliases` (one-to-one) and the Markdown text. English cards use the headings `## What is it?`, `## When does it help?`, `## Examples`, `### Simple`, `### Medium`, `### Hard`, `## Where should you stop?`, `## Sources` and the fields `**Situation**`, `**Prompt**`, `**Sample output**` or `**Sample dialogue**`, `**What did we get?**`. Keep every source URL, code fence and list item, and do not add claims, results or sources that the Turkish card does not contain. The validator checks this structure, not the quality of the translation; that remains part of human review.
+
 Başlıkları ve kalın alan adlarını şablondaki sırayla koruyun. Dosyalar UTF-8, BOM olmadan, LF satır sonlarıyla ve son satır sonu karakteriyle kaydedilir. `cards/` yalnız indekste listelenen doğrudan Markdown dosyalarını içerir; alt klasör, symlink ve yol geçişi kabul edilmez.
 
 Doğrulayıcı yapıyı, alanları ve kaynak bağlantısının varlığını denetler. Bir iddianın doğruluğunu veya bir örneğin pedagojik kalitesini otomatik olarak doğrulamaz; bunlar insan incelemesinin parçasıdır.

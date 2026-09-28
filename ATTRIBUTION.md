@@ -1,10 +1,10 @@
 # Attribution and license scope
 
-Prompt Atlas is a Turkish collection of individually readable prompting and learning cards. Credit **Mustafa Saraç** for the original authored card expressions and the selection and arrangement of the collection, to the extent copyright or similar rights exist. Copyright © 2026 Mustafa Saraç.
+Prompt Atlas is a Turkish collection of individually readable prompting and learning cards, with an English edition of the same cards in `en/`. Credit **Mustafa Saraç** for the original authored card expressions and the selection and arrangement of the collection, to the extent copyright or similar rights exist. Copyright © 2026 Mustafa Saraç.
 
 ## Card content: CC BY 4.0
 
-The original content in `cards/*.md`, the public metadata and compilation in `index.json` and `catalog.json`, the card template, and the authored project documentation are offered under the **Creative Commons Attribution 4.0 International** license. The complete legal text is in [LICENSE](LICENSE); the [license summary](https://creativecommons.org/licenses/by/4.0/) is a practical introduction.
+The original content in `cards/*.md`, its English edition in `en/cards/*.md`, the public metadata and compilation in `index.json`, `catalog.json`, `en/index.json` and `en/catalog.json`, the card template, and the authored project documentation are offered under the **Creative Commons Attribution 4.0 International** license. The complete legal text is in [LICENSE](LICENSE); the [license summary](https://creativecommons.org/licenses/by/4.0/) is a practical introduction.
 
 You may copy, share and adapt this content, including for commercial purposes. Follow the license: give appropriate credit, retain supplied notices and source/license links, link to CC BY 4.0, and indicate whether you made changes. Do not suggest that Mustafa Saraç or a referenced author endorses your use. Do not impose additional legal or technical restrictions that prevent others from exercising the licensed rights.
 

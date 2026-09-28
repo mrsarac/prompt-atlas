@@ -2,6 +2,8 @@
 
 A Turkish collection of individually linkable prompting and learning cards, with practical **Simple / Medium / Hard** scenarios and public source references. The initial collection contains **81 cards and 243 scenarios**. It is a curated collection, not a claim to cover every technique or a comparison of model performance.
 
+**English edition:** [`en/`](en/) contains English translations of all 81 cards / 243 scenarios. Each English card keeps the Turkish card's ID, slug, file name, section, tags, relations, source links and scenario structure; only the reader-facing text, title and aliases are translated. The Turkish cards remain the original collection. The examples are fictional teaching examples, not executed model or benchmark results. The website imports a pinned release separately; changes here, including the English edition, are not published there automatically.
+
 Card content is available under **CC BY 4.0**, including commercial reuse with attribution, a license link and an indication of changes. The small validation tooling is **MIT**. See [license scope and attribution](ATTRIBUTION.md), the complete [content license](LICENSE) and [tooling license](LICENSE-CODE). Credit does not imply endorsement. Images and the private website's code are excluded.
 
 Public repository: **[mrsarac/prompt-atlas](https://github.com/mrsarac/prompt-atlas)**. The collection is published, and its website reading surfaces were verified live on **2026-09-14**. The website pins the card content from commit `82b2a48fbed05caffc6d8a204ab243de622ef0a6`; later repository changes are not automatically deployed to the website.
@@ -26,6 +28,7 @@ Canlı okuma adresleri [Prompt Atlası](https://mustafasarac.com/prompt-atlasi/)
 | [templates/card.md](templates/card.md) | Yeni katkılar için şablon; katalog kartı değildir |
 | [scripts/catalog.py](scripts/catalog.py) | Bağımsız Python üretici ve doğrulayıcı |
 | [CONTRIBUTING.md](CONTRIBUTING.md) | İçerik, inceleme ve lisans koşulları |
+| `en/cards/*.md`, [en/index.json](en/index.json), [en/catalog.json](en/catalog.json) | İngilizce sürüm: aynı kimlik ve ilişkilerle çevrilmiş kartlar, indeks ve üretilmiş katalog (`language: "en"`) |
 
 Katalog şeması: `schema: "prompt-atlas.catalog"`, `version: 1`, `language: "tr"`, `content_license: "CC-BY-4.0"`, `cards: [...]`. `version` veri şemasının sürümüdür; bir Git etiketi veya yayın kimliği değildir. Her kart, indeksteki dokuz alanın tamamını ve `markdown` alanını taşır:
 
@@ -46,7 +49,7 @@ python3 -B scripts/catalog.py generate
 python3 -B scripts/catalog.py check
 ```
 
-`generate` yalnız `catalog.json` dosyasını üretir. `check` kaynakları doğrular ve kataloğun bunlardan birebir üretilebildiğini denetler; dosya yazmaz. Aynı girdiler aynı UTF-8/LF baytlarını üretir. Kart içindeki kod ve promptlar çalıştırılmaz. Testler sentetik girdiler kullanır. Yapı denetimi, akademik iddiaların doğrulandığı anlamına gelmez.
+`generate` yalnız `catalog.json` dosyasını, `en/` varsa ayrıca `en/catalog.json` dosyasını üretir. İngilizce kartlar İngilizce başlık/alan adlarıyla doğrulanır ve Türkçe kartlarla birebir eşleşmelidir: aynı sıra, kimlik, slug, bölüm, etiket, işaret, dosya ve ilişkiler; aynı kaynak URL'leri, kod çitleri, liste öğesi sayısı ve çıktı/diyalog türü. Herhangi bir doğrulama hatasında hiçbir katalog yazılmaz. `check` kaynakları doğrular ve kataloğun bunlardan birebir üretilebildiğini denetler; dosya yazmaz. Aynı girdiler aynı UTF-8/LF baytlarını üretir. Kart içindeki kod ve promptlar çalıştırılmaz. Testler sentetik girdiler kullanır. Yapı denetimi, akademik iddiaların doğrulandığı anlamına gelmez.
 
 ## Katkı ve sitenin güncellenmesi
 
