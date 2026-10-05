@@ -1,6 +1,6 @@
 # Prompt Atlas
 
-A Turkish collection of individually linkable prompting and learning cards, with practical **Simple / Medium / Hard** scenarios and public source references. The initial collection contains **81 cards and 243 scenarios**. It is a curated collection, not a claim to cover every technique or a comparison of model performance.
+Prompt Atlas is a curated collection of **81 prompting and learning cards** with **243 Simple / Medium / Hard scenarios**, available in English at [`en/`](en/) and in the original Turkish at [`cards/`](cards/). It is not a benchmark, a model comparison or a claim to cover every technique.
 
 **English edition:** [`en/`](en/) contains English translations of all 81 cards / 243 scenarios. Each English card keeps the Turkish card's ID, slug, file name, section, tags, relations, source links and scenario structure; only the reader-facing text, title and aliases are translated. The Turkish cards remain the original collection. The examples are fictional teaching examples, not executed model or benchmark results. The website imports a pinned release separately; changes here, including the English edition, are not published there automatically.
 
@@ -144,3 +144,5 @@ Bölümler: `temel` başlangıç, `yazi` yazı, `kod` kod, `arastirma` araştır
 | M25 | [Grup tartışmasını kolaylaştırma](cards/grup-kolaylastirma.md) | ajan |
 | M26 | [Multiagent Debate](cards/multiagent-debate.md) | ajan |
 | M27 | [Tutor gözetmeni](cards/tutor-gozetmeni.md) | ajan |
+
+Status / limits: This repository contains the card sources and generated catalogs; examples are fictional teaching examples, not benchmark results.
